@@ -1,0 +1,17 @@
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe.config
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.exe
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\bin\Debug\QLSieuThi.pdb
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.AssemblyReference.cache
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.FrmMain.resources
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.Properties.Resources.resources
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.GenerateResource.cache
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.CoreCompileInputs.cache
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\bin\Debug\DevComponents.DotNetBar2.dll
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.CopyComplete
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\bin\Debug\EntityFramework.dll
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\bin\Debug\EntityFramework.xml
+D:\Ky1nam4\TTN\github\QLSieuThi\QLSieuThi\QLSieuThi\bin\Debug\EntityFramework.SqlServer.xml
