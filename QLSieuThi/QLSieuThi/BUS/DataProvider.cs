@@ -27,7 +27,7 @@ namespace QLSieuThi.Bus
 
         private DataProvider() { }
 
-        private string connectionSTR = @"Data Source=localhost\SQLEXPRESS01;Initial Catalog=banhangsieuthi;Integrated Security=True";   //data source=(local);initial catalog=banhangsieuthi;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework
+        private string connectionSTR = @"Data Source=LAPTOP-HI22LHQT\DIEP;Initial Catalog=banhangsieuthi;Integrated Security=True";   //data source=(local);initial catalog=banhangsieuthi;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
