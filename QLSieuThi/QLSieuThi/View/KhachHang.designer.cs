@@ -1,4 +1,4 @@
-﻿namespace QL.Views
+﻿namespace QLSieuThi.View
 {
      partial class KhachHang
      {

@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using QLSieuThi.Controller;
+using QLSieuThi.View;
+using QLSieuThi.Bus;
 namespace QLSieuThi
 {
     public partial class FrmMain : Form
@@ -26,5 +28,12 @@ namespace QLSieuThi
         {
 
         }
-    }
+          private void btnkhachhang_Click(object sender, EventArgs e)
+          {
+               KhachHang f = new KhachHang();
+               this.Hide();
+               f.ShowDialog();
+               this.Close();
+          }
+     }
 }

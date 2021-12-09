@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using QLSieuThi.Controller;
 using QLSieuThi.View;
 using QLSieuThi.Bus;
-namespace QL.Views
+namespace QLSieuThi.View
 {
     public partial class KhachHang : Form
     {
@@ -22,33 +22,33 @@ namespace QL.Views
 #region menustrip
         private void menuTrangChu_Click(object sender, EventArgs e)
         {
-            TrangChu f = new TrangChu();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
+            //TrangChu f = new TrangChu();
+            //this.Hide();
+            //f.ShowDialog();
+            //this.Close();
         }
 
      
         private void menuHangHoa_Click(object sender, EventArgs e)
         {
-            HangHoa f = new HangHoa();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
+            //HangHoa f = new HangHoa();
+            //this.Hide();
+            //f.ShowDialog();
+            //this.Close();
         }
 
         private void menuNhanVien_Click(object sender, EventArgs e)
         {
-            NhanVien f = new NhanVien();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
+           //NhanVien f = new NhanVien();
+           // this.Hide();
+           // f.ShowDialog();
+           // this.Close();
         }
 
         private void menuHuongDan_Click(object sender, EventArgs e)
         {
-            HuongDan f = new HuongDan();
-            f.ShowDialog();
+           // HuongDan f = new HuongDan();
+           // f.ShowDialog();
         }
         #endregion
 

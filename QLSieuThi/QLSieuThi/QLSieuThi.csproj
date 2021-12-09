@@ -65,7 +65,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BUS\DataProvider.cs" />
+    <Compile Include="Controller\CtHoaDonController.cs" />
+    <Compile Include="Controller\HoaDonController.cs" />
     <Compile Include="Controller\KhachhangController.cs" />
+    <Compile Include="View\ChiTiet_HD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ChiTiet_HD.designer.cs">
+      <DependentUpon>ChiTiet_HD.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +112,9 @@
     <Compile Include="View\KhachHang.designer.cs">
       <DependentUpon>KhachHang.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="View\ChiTiet_HD.resx">
+      <DependentUpon>ChiTiet_HD.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>

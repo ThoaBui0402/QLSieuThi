@@ -32,4 +32,5 @@ D:\TT_Nhom\CloneGit\QLST\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.CoreComp
 D:\TT_Nhom\CloneGit\QLST\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.csproj.CopyComplete
 D:\TT_Nhom\CloneGit\QLST\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.exe
 D:\TT_Nhom\CloneGit\QLST\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.pdb
-D:\TT_Nhom\CloneGit\QLST\QLSieuThi\QLSieuThi\obj\Debug\bai6quanlysieuthi.Views.KhachHang.resources
+D:\TT_Nhom\CloneGit\QLST\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.View.ChiTiet_HD.resources
+D:\TT_Nhom\CloneGit\QLST\QLSieuThi\QLSieuThi\obj\Debug\QLSieuThi.View.KhachHang.resources
