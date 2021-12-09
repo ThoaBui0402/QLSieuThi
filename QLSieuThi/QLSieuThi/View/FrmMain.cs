@@ -26,5 +26,10 @@ namespace QLSieuThi
         {
 
         }
+
+        private void bntHangHoa_Click(object sender, EventArgs e)
+        {
+          
+        }
     }
 }
