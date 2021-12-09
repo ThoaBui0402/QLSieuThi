@@ -38,25 +38,25 @@ namespace QLSieuThi
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.pageCN = new System.Windows.Forms.TabPage();
-            this.pageQL = new System.Windows.Forms.TabPage();
-            this.bntKH = new DevComponents.DotNetBar.ButtonX();
-            this.bntHangHoa = new DevComponents.DotNetBar.ButtonX();
             this.bntNhanvien = new DevComponents.DotNetBar.ButtonX();
-            this.bnthuongdan = new DevComponents.DotNetBar.ButtonX();
-            this.bntdangxuat = new DevComponents.DotNetBar.ButtonX();
+            this.bntHangHoa = new DevComponents.DotNetBar.ButtonX();
+            this.bntKH = new DevComponents.DotNetBar.ButtonX();
+            this.pageQL = new System.Windows.Forms.TabPage();
             this.bntthoat = new DevComponents.DotNetBar.ButtonX();
+            this.bntdangxuat = new DevComponents.DotNetBar.ButtonX();
+            this.bnthuongdan = new DevComponents.DotNetBar.ButtonX();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.pageCN.SuspendLayout();
             this.pageQL.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -130,27 +130,6 @@ namespace QLSieuThi
             this.panel1.TabIndex = 12;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Ivory;
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 36);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(893, 671);
-            this.panel2.TabIndex = 13;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(893, 671);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
-            // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.pageCN);
@@ -175,6 +154,37 @@ namespace QLSieuThi
             this.pageCN.Text = "Chức năng";
             this.pageCN.UseVisualStyleBackColor = true;
             // 
+            // bntNhanvien
+            // 
+            this.bntNhanvien.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.bntNhanvien.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.bntNhanvien.Location = new System.Drawing.Point(6, 108);
+            this.bntNhanvien.Name = "bntNhanvien";
+            this.bntNhanvien.Size = new System.Drawing.Size(145, 76);
+            this.bntNhanvien.TabIndex = 3;
+            this.bntNhanvien.Text = "Nhân viên";
+            // 
+            // bntHangHoa
+            // 
+            this.bntHangHoa.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.bntHangHoa.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.bntHangHoa.Location = new System.Drawing.Point(167, 6);
+            this.bntHangHoa.Name = "bntHangHoa";
+            this.bntHangHoa.Size = new System.Drawing.Size(145, 76);
+            this.bntHangHoa.TabIndex = 2;
+            this.bntHangHoa.Text = "Hàng Hoá";
+            this.bntHangHoa.Click += new System.EventHandler(this.bntHangHoa_Click);
+            // 
+            // bntKH
+            // 
+            this.bntKH.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.bntKH.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.bntKH.Location = new System.Drawing.Point(6, 6);
+            this.bntKH.Name = "bntKH";
+            this.bntKH.Size = new System.Drawing.Size(145, 76);
+            this.bntKH.TabIndex = 1;
+            this.bntKH.Text = "Khách hàng";
+            // 
             // pageQL
             // 
             this.pageQL.Controls.Add(this.bntthoat);
@@ -188,45 +198,15 @@ namespace QLSieuThi
             this.pageQL.Text = "Quản lý";
             this.pageQL.UseVisualStyleBackColor = true;
             // 
-            // bntKH
+            // bntthoat
             // 
-            this.bntKH.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.bntKH.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.bntKH.Location = new System.Drawing.Point(6, 6);
-            this.bntKH.Name = "bntKH";
-            this.bntKH.Size = new System.Drawing.Size(145, 76);
-            this.bntKH.TabIndex = 1;
-            this.bntKH.Text = "Khách hàng";
-            // 
-            // bntHangHoa
-            // 
-            this.bntHangHoa.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.bntHangHoa.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.bntHangHoa.Location = new System.Drawing.Point(167, 6);
-            this.bntHangHoa.Name = "bntHangHoa";
-            this.bntHangHoa.Size = new System.Drawing.Size(145, 76);
-            this.bntHangHoa.TabIndex = 2;
-            this.bntHangHoa.Text = "Hàng Hoá";
-            // 
-            // bntNhanvien
-            // 
-            this.bntNhanvien.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.bntNhanvien.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.bntNhanvien.Location = new System.Drawing.Point(6, 108);
-            this.bntNhanvien.Name = "bntNhanvien";
-            this.bntNhanvien.Size = new System.Drawing.Size(145, 76);
-            this.bntNhanvien.TabIndex = 3;
-            this.bntNhanvien.Text = "Nhân viên";
-            // 
-            // bnthuongdan
-            // 
-            this.bnthuongdan.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.bnthuongdan.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.bnthuongdan.Location = new System.Drawing.Point(6, 6);
-            this.bnthuongdan.Name = "bnthuongdan";
-            this.bnthuongdan.Size = new System.Drawing.Size(145, 76);
-            this.bnthuongdan.TabIndex = 2;
-            this.bnthuongdan.Text = "Hướng dẫn";
+            this.bntthoat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.bntthoat.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.bntthoat.Location = new System.Drawing.Point(6, 102);
+            this.bntthoat.Name = "bntthoat";
+            this.bntthoat.Size = new System.Drawing.Size(145, 76);
+            this.bntthoat.TabIndex = 4;
+            this.bntthoat.Text = "Thoát";
             // 
             // bntdangxuat
             // 
@@ -238,15 +218,36 @@ namespace QLSieuThi
             this.bntdangxuat.TabIndex = 3;
             this.bntdangxuat.Text = "Đăng xuất";
             // 
-            // bntthoat
+            // bnthuongdan
             // 
-            this.bntthoat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.bntthoat.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.bntthoat.Location = new System.Drawing.Point(6, 102);
-            this.bntthoat.Name = "bntthoat";
-            this.bntthoat.Size = new System.Drawing.Size(145, 76);
-            this.bntthoat.TabIndex = 4;
-            this.bntthoat.Text = "Thoát";
+            this.bnthuongdan.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.bnthuongdan.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.bnthuongdan.Location = new System.Drawing.Point(6, 6);
+            this.bnthuongdan.Name = "bnthuongdan";
+            this.bnthuongdan.Size = new System.Drawing.Size(145, 76);
+            this.bnthuongdan.TabIndex = 2;
+            this.bnthuongdan.Text = "Hướng dẫn";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Ivory;
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 36);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(893, 671);
+            this.panel2.TabIndex = 13;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(893, 671);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // FrmMain
             // 
@@ -266,11 +267,11 @@ namespace QLSieuThi
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.pageCN.ResumeLayout(false);
             this.pageQL.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
