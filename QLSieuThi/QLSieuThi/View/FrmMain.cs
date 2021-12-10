@@ -1,4 +1,6 @@
-﻿using System;
+﻿using QL.Views;
+using QLSieuThi.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,7 +31,36 @@ namespace QLSieuThi
 
         private void bntHangHoa_Click(object sender, EventArgs e)
         {
-          
+            HangHoa f = new HangHoa();
+            f.Show();
+        }
+
+        private void bntKH_Click(object sender, EventArgs e)
+        {
+            KhachHang f = new KhachHang();
+            f.Show();
+        }
+
+        private void menuKhachHang_Click(object sender, EventArgs e)
+        {
+            KhachHang f = new KhachHang();
+            f.Show();
+        }
+
+        private void bntNhanvien_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void bntdangxuat_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void menuHangHoa_Click(object sender, EventArgs e)
+        {
+            HangHoa f = new HangHoa();
+            f.Show();
         }
     }
 }

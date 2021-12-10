@@ -22,9 +22,9 @@ namespace QL.Views
 #region menustrip
         private void menuTrangChu_Click(object sender, EventArgs e)
         {
-            TrangChu f = new TrangChu();
+          //  TrangChu f = new TrangChu();
             this.Hide();
-            f.ShowDialog();
+           // f.ShowDialog();
             this.Close();
         }
 
@@ -39,9 +39,9 @@ namespace QL.Views
 
         private void menuNhanVien_Click(object sender, EventArgs e)
         {
-            NhanVien f = new NhanVien();
+          //  NhanVien f = new NhanVien();
             this.Hide();
-            f.ShowDialog();
+         //   f.ShowDialog();
             this.Close();
         }
 
@@ -287,8 +287,8 @@ namespace QL.Views
                     if (HoaDonController.Instance.InsertHoaDon(ma,ngaylap,manv,makh))
                     {
                         ViewHoaDon();
-                        ChiTiet_HD f = new ChiTiet_HD();
-                        f.ShowDialog();
+                   //     ChiTiet_HD f = new ChiTiet_HD();
+                     //   f.ShowDialog();
                         MessageBox.Show("Thêm thành công!");
                     }
                 }
@@ -405,8 +405,8 @@ namespace QL.Views
 #region chi tiết hóa đon
         private void btnChiTietHD_Click(object sender, EventArgs e)
         {
-            ChiTiet_HD f = new ChiTiet_HD();
-            f.ShowDialog();
+         //   ChiTiet_HD f = new ChiTiet_HD();
+           // f.ShowDialog();
         }
         #endregion
 
