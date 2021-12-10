@@ -79,12 +79,14 @@ namespace QLSieuThi
             this.menuKhachHang.Name = "menuKhachHang";
             this.menuKhachHang.Size = new System.Drawing.Size(128, 32);
             this.menuKhachHang.Text = "Khách hàng";
+            this.menuKhachHang.Click += new System.EventHandler(this.menuKhachHang_Click);
             // 
             // menuHangHoa
             // 
             this.menuHangHoa.Name = "menuHangHoa";
             this.menuHangHoa.Size = new System.Drawing.Size(111, 32);
             this.menuHangHoa.Text = "Hàng hóa";
+            this.menuHangHoa.Click += new System.EventHandler(this.menuHangHoa_Click);
             // 
             // menuNhanVien
             // 
@@ -163,6 +165,7 @@ namespace QLSieuThi
             this.bntNhanvien.Size = new System.Drawing.Size(145, 76);
             this.bntNhanvien.TabIndex = 3;
             this.bntNhanvien.Text = "Nhân viên";
+            this.bntNhanvien.Click += new System.EventHandler(this.bntNhanvien_Click);
             // 
             // bntHangHoa
             // 
@@ -184,6 +187,7 @@ namespace QLSieuThi
             this.bntKH.Size = new System.Drawing.Size(145, 76);
             this.bntKH.TabIndex = 1;
             this.bntKH.Text = "Khách hàng";
+            this.bntKH.Click += new System.EventHandler(this.bntKH_Click);
             // 
             // pageQL
             // 
@@ -217,6 +221,7 @@ namespace QLSieuThi
             this.bntdangxuat.Size = new System.Drawing.Size(145, 76);
             this.bntdangxuat.TabIndex = 3;
             this.bntdangxuat.Text = "Đăng xuất";
+            this.bntdangxuat.Click += new System.EventHandler(this.bntdangxuat_Click);
             // 
             // bnthuongdan
             // 
