@@ -299,6 +299,7 @@ namespace QLSieuThi.View
             this.btnSearch_XK.TabIndex = 19;
             this.btnSearch_XK.Text = "Tìm kiếm";
             this.btnSearch_XK.UseVisualStyleBackColor = false;
+            this.btnSearch_XK.Click += new System.EventHandler(this.btnSearch_XK_Click);
             // 
             // btnDetail_XK
             // 
@@ -956,6 +957,7 @@ namespace QLSieuThi.View
             this.btnSearch_KQ.TabIndex = 26;
             this.btnSearch_KQ.Text = "Tìm kiếm";
             this.btnSearch_KQ.UseVisualStyleBackColor = false;
+            this.btnSearch_KQ.Click += new System.EventHandler(this.btnSearch_KQ_Click);
             // 
             // btnExit_KQ
             // 

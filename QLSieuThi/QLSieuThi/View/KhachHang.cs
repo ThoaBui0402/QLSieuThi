@@ -408,10 +408,14 @@ namespace QL.Views
          //   ChiTiet_HD f = new ChiTiet_HD();
            // f.ShowDialog();
         }
-        #endregion
 
         #endregion
 
-        
+        #endregion
+
+        private void cmbSearchKh_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

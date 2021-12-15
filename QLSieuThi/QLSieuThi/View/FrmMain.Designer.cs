@@ -99,6 +99,7 @@ namespace QLSieuThi
             this.menuHuongDan.Name = "menuHuongDan";
             this.menuHuongDan.Size = new System.Drawing.Size(125, 32);
             this.menuHuongDan.Text = "Hướng dẫn";
+            this.menuHuongDan.Click += new System.EventHandler(this.menuHuongDan_Click);
             // 
             // btnDangNhap
             // 
@@ -232,6 +233,7 @@ namespace QLSieuThi
             this.bnthuongdan.Size = new System.Drawing.Size(145, 76);
             this.bnthuongdan.TabIndex = 2;
             this.bnthuongdan.Text = "Hướng dẫn";
+            this.bnthuongdan.Click += new System.EventHandler(this.bnthuongdan_Click);
             // 
             // panel2
             // 

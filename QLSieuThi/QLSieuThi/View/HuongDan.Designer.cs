@@ -39,6 +39,7 @@ namespace QLSieuThi.View
             treeNode3,
             treeNode4});
             this.treeView1 = new System.Windows.Forms.TreeView();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // treeView1
@@ -58,14 +59,24 @@ namespace QLSieuThi.View
             treeNode5.Text = "Hướng dẫn";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode5});
-            this.treeView1.Size = new System.Drawing.Size(200, 598);
+            this.treeView1.Size = new System.Drawing.Size(200, 668);
             this.treeView1.TabIndex = 2;
+            this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(229, 13);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(938, 669);
+            this.panel1.TabIndex = 3;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // HuongDan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1179, 629);
+            this.ClientSize = new System.Drawing.Size(1179, 694);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.treeView1);
             this.Name = "HuongDan";
             this.Text = "HuongDan";
@@ -76,5 +87,6 @@ namespace QLSieuThi.View
         #endregion
 
         private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.Panel panel1;
     }
 }

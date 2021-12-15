@@ -385,5 +385,77 @@ namespace QLSieuThi.View
         {
             this.Close();
         }
+
+        private void btnSearch_XK_Click(object sender, EventArgs e)
+        {
+            if (txtMaXk.Text == "" && cbMaKhoHangXk.Text == "" && cbMaNhanVienXk.Text == "" && cbMaQuayXK.Text == "")
+            {
+                if (txtMaXk.Text == "")
+                    errorProvider1.SetError(txtMaXk, "Chưa có mã xuất cần tìm");
+                if (cbMaKhoHangXk.Text == "")
+                    errorProvider1.SetError(cbMaKhoHangXk, "Chưa có mã kho cần tìm");
+                if (cbMaNhanVienXk.Text == "")
+                    errorProvider1.SetError(cbMaNhanVienXk, "Chưa có mã nhân viên cần tìm");
+                if (cbMaQuayXK.Text == "")
+                    errorProvider1.SetError(cbMaQuayXK, "Chưa có mã quầy cần tìm");
+                MessageBox.Show("Phải có thông tin cần tìm");
+                return;
+            }
+            else
+            {
+                errorProvider1.Clear();
+            }
+            if (txtMaXk.Text != "" || cbMaKhoHangXk.Text != "" || cbMaNhanVienXk.Text != "" || cbMaQuayXK.Text != "")
+            {
+                dgvXK.DataSource = XuatKhoController.Instance.SearchXuatKho(txtMaXk.Text, cbMaKhoHangXk.Text, cbMaNhanVienXk.Text, cbMaQuayXK.Text);
+            }
+        }
+
+        private void btnSearch_KQ_Click(object sender, EventArgs e)
+        {
+            if (cbSearch.Text == @"Quầy hàng")
+            {
+                if (txtMaQuayH.Text == "" && txtTenQuayH.Text == "")
+                {
+                    if (txtMaQuayH.Text == "")
+                        errorProvider1.SetError(txtMaQuayH, "Chưa nhập mã cần tìm");
+                    if (txtTenQuayH.Text == "")
+                        errorProvider1.SetError(txtTenQuayH, "Chưa nhập tên cần tìm");
+                    MessageBox.Show("Phải nhập mã hoặc tên cần tìm");
+                }
+                else
+                {
+                    errorProvider1.Clear();
+                }
+                string ma = txtMaQuayH.Text;
+                string ten = txtTenQuayH.Text;
+                if (txtMaQuayH.Text != "" || txtTenQuayH.Text != "")
+                {
+                    dgvQuayHang.DataSource = QuayHangController.Instance.SearchQuayHang(ma, ten);
+                }
+            }
+            else if (cbSearch.Text == @"Kho hàng")
+            {
+                if (txtMaKho.Text == "" && txtTenKho.Text == "")
+                {
+                    if (txtMaKho.Text == "")
+                        errorProvider1.SetError(txtMaKho, "Chưa nhập mã cần tìm");
+                    if (txtTenKho.Text == "")
+                        errorProvider1.SetError(txtTenKho, "Chưa nhập tên cần tìm");
+                    MessageBox.Show("Phải nhập vào mã hoặc tên cần tìm");
+                    return;
+                }
+                else
+                {
+                    errorProvider1.Clear();
+                }
+                string ma = txtMaKho.Text;
+                string ten = txtTenKho.Text;
+                if (txtMaKho.Text != "" || txtTenKho.Text != "")
+                {
+                    dgvKhoHang.DataSource = KhoHangController.Instance.SearchKhoHang(ma, ten);
+                }
+            }
+        }
     }
 }
