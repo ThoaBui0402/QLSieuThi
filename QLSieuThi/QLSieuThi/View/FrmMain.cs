@@ -62,5 +62,17 @@ namespace QLSieuThi
             HangHoa f = new HangHoa();
             f.Show();
         }
+
+        private void menuHuongDan_Click(object sender, EventArgs e)
+        {
+            HuongDan f = new HuongDan();
+            f.Show();
+        }
+
+        private void bnthuongdan_Click(object sender, EventArgs e)
+        {
+            HuongDan f = new HuongDan();
+            f.Show();
+        }
     }
 }

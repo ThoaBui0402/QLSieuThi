@@ -70,8 +70,11 @@
     <Compile Include="Controller\CtHoaDonController.cs" />
     <Compile Include="Controller\HoaDonController.cs" />
     <Compile Include="Controller\KhachhangController.cs" />
+    <Compile Include="Controller\KhoHangController.cs" />
     <Compile Include="Controller\MatHangController.cs" />
     <Compile Include="Controller\NhaCCController.cs" />
+    <Compile Include="Controller\QuayHangController.cs" />
+    <Compile Include="Controller\XuatKhoController.cs" />
     <Compile Include="View\ChiTiet_HD.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +119,30 @@
     <Compile Include="View\HangHoa.Designer.cs">
       <DependentUpon>HangHoa.cs</DependentUpon>
     </Compile>
+    <Compile Include="View\HDDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HDDangNhap.Designer.cs">
+      <DependentUpon>HDDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HDHangHoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HDHangHoa.Designer.cs">
+      <DependentUpon>HDHangHoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HDKhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HDKhachHang.Designer.cs">
+      <DependentUpon>HDKhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HDNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HDNhanVien.Designer.cs">
+      <DependentUpon>HDNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="View\HuongDan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,6 +175,18 @@
     </Compile>
     <EmbeddedResource Include="View\HangHoa.resx">
       <DependentUpon>HangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HDDangNhap.resx">
+      <DependentUpon>HDDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HDHangHoa.resx">
+      <DependentUpon>HDHangHoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HDKhachHang.resx">
+      <DependentUpon>HDKhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HDNhanVien.resx">
+      <DependentUpon>HDNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="View\HuongDan.resx">
       <DependentUpon>HuongDan.cs</DependentUpon>
