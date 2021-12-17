@@ -1,4 +1,4 @@
-﻿using QL.Views;
+﻿
 using QLSieuThi.View;
 using System;
 using System.Collections.Generic;

@@ -457,5 +457,11 @@ namespace QLSieuThi.View
                 }
             }
         }
-    }
+
+          private void btnDetail_XK_Click(object sender, EventArgs e)
+          {
+               ChiTiet_XuatKho ctxk = new ChiTiet_XuatKho();
+               ctxk.Show();
+          }
+     }
 }
